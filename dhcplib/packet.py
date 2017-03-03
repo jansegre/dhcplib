@@ -326,7 +326,7 @@ class DHCPPacket:
                         option += [option_id, 255] + option_value[:255]
                         option_value = option_value[255:]
                     else:
-                        option += [option_id, len(option_value)] + option_value
+                        option += [option_id, len(option_value)] + list(option_value)
                         break
 
         #Determine the order for options to appear in the packet
