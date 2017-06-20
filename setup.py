@@ -15,5 +15,15 @@ setup(
     author_email='jan@ispflex.com',
     license='GPLv3',
     url='https://github.com/jansegre/dhcplib/',
-    # TODO: classifiers
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Information Technology',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+        'Natural Language :: English',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 3 :: Only',
+        'Programming Language :: Python :: 3.5',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        'Topic :: System :: Networking',
+    ],
 )
